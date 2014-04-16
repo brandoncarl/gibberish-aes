@@ -1,5 +1,5 @@
 {
-  "name": "Gibberish-AES",
+  "name": "gibberish-aes",
   "version": "1.0.0",
   "author": "Mark Percival <mark@mpercival.com>",
   "description": "A lightweight Javascript Libray for OpenSSL compatible AES CBC encryption.",
@@ -9,7 +9,7 @@
       "email": "mark@mpercival.com"
     }
   ],
-  "main": null,
+  "main": "./src/gibberish-aes.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/mdp/gibberish-aes.git"
@@ -23,7 +23,7 @@
     "grunt-contrib-copy": "0.x.x",
     "grunt-contrib-jshint": "0.x.x"
   },
-  
+
   "bundledDependencies": [],
   "license": "MIT"
 }
